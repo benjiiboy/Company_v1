@@ -9,10 +9,9 @@ namespace Sandbox
     {
        private string skill;
 
-            public Worker(String name, int salaryPerMonth)
-            : base(name, salaryPerMonth)
+            public Worker(String name, int salaryPerMonth) : base(name, salaryPerMonth)
         {
-            
+            this.skill = skill;
         }
         
     }
